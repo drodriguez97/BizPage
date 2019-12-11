@@ -1,0 +1,19 @@
+{
+  "name": "BizPage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d BizPage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage":"https://drodriguez97.github.io/BizPage",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
