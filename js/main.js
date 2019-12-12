@@ -150,7 +150,7 @@
     introCarouselIndicators.append("<li data-target='#introCarousel' data-slide-to='" + index + "' class='active'></li>") :
     introCarouselIndicators.append("<li data-target='#introCarousel' data-slide-to='" + index + "'></li>");
 
-    $(this).css("background-image", "url('" + $(this).children('.carousel-background').children('img' 'video').attr('src') +"')");
+    $(this).css("background-image", "url('" + $(this).children('.carousel-background').children('img' 'video' 'source').attr('src') +"')");
     $(this).children('.carousel-background').remove();
   });
 
