@@ -142,7 +142,6 @@
 
   // Intro carousel
   var introCarousel = $(".carousel").carousel({
-  interval: 3500
 });
   var introCarouselIndicators = $(".carousel-indicators");
   introCarousel.find(".carousel-inner").children(".carousel-item").each(function(index) {
